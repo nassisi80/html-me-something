@@ -1,0 +1,66 @@
+body {
+	background-image: url(./images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: hue;
+	
+}
+
+h2 {
+	font-family: Garamond;
+	font-size: 36px;
+	color:teal;
+	background-color: rgb(255,204,102);
+	border-radius: 10px;
+	padding: 5px;
+	margin:5px;
+	text-align:center;
+}
+
+h4 {
+	text-decoration: underline;
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size:20px;
+	color:red;
+	margin:0px;
+}
+
+nav {
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size: 24px;
+	color: teal;
+	text-align:center;
+	background-color: white;
+}
+
+img{
+	
+	width: 200px;
+}
+
+ul {
+	color: red;
+	font-size:20px;
+}
+
+p, li {
+	color:white;
+	text-align: top;
+	margin:0px;
+	font-size:14px
+}
+
+.subtitle{
+	color: yellow;
+	font-size: 24px;
+	left: 10px;
+	font-family: 'Noto Serif JP', sans-serif;
+	text-align:top;
+	word-wrap: break-word;
+}
+
+table{
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
