@@ -6,6 +6,10 @@ body {
 	
 }
 
+#player {
+	float: right;
+}
+
 h2 {
 	font-family: Garamond;
 	font-size: 36px;
@@ -21,17 +25,12 @@ h4 {
 	text-decoration: underline;
 	font-family: 'Noto Serif JP', sans-serif;
 	font-size:20px;
-	color:red;
+	color:rgb(197, 73, 73);
 	margin:0px;
+	padding: 0px;
+	text-shadow: 1px 1px rgb(255,204,102)
 }
 
-nav {
-	font-family: 'Noto Serif JP', sans-serif;
-	font-size: 24px;
-	color: teal;
-	text-align:center;
-	background-color: white;
-}
 
 img{
 	
@@ -39,20 +38,40 @@ img{
 }
 
 ul {
-	color: red;
+	max-width: 150px;
+	color: rgb(197, 73, 73);
 	font-size:20px;
+	text-shadow: 0.75px 0.75px rgb(255,204,102)
+	
 }
 
-p, li {
+li {
 	color:white;
 	text-align: top;
 	margin:0px;
 	font-size:14px
 }
 
+p {
+	color:white;
+	text-align: top;
+	margin:0px;
+	font-size:18px;
+	text-shadow: 0.5px 0.5px black;
+}
+
+.rec{
+	color:white;
+	text-align: top;
+	margin:0px;
+	font-size:18px;
+	text-shadow: 0.5px 0.5px black;
+}
+
 .subtitle{
-	color: yellow;
+	color: rgb(255,204,102);
 	font-size: 24px;
+	text-shadow: 1px 1px rgb(197, 73, 73);
 	left: 10px;
 	font-family: 'Noto Serif JP', sans-serif;
 	text-align:top;
@@ -64,3 +83,45 @@ table{
 	padding: 0px;
 	border-collapse: collapse;
 }
+
+.timer {
+	color:rgb(197, 73, 73);
+	text-shadow: 0.75px 0.75px rgb(255,204,102)
+}
+
+.me {
+	height: 100px;
+	width: 100px;
+	float: right;
+	
+}
+
+.thumb-up{
+	height: 100px;
+	width: 150px;
+	float: right;
+}
+
+.nav-bar{
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size: 24px;
+	color: teal;
+	text-align:center;
+	background-color: rgba(153, 245, 245, 0.6);
+	border-radius: 10px;
+	
+}
+
+.intro {
+	background-color: rgb(184, 187, 187, 0.4);
+	margin: 10px;
+	display: inline-block;
+	text-align: left;
+	overflow: auto;
+	color: rgb(240, 240, 240);
+	text-shadow: 0.6px 0.6px black;
+	padding: 5px;
+	border-radius: 10px;
+	text-justify: distribute-all-lines;
+}
+

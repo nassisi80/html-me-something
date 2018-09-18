@@ -15,7 +15,7 @@
   </header>
 
   <div>
-    <nav>
+    <nav class="nav-bar">
       <a href="#amatriciana">Amatriciana</a> |
       <a href="#carbonara">Carbonara</a> |
       <a href="#pesto-genovese">Pesto Genovese</a> |
@@ -24,34 +24,56 @@
    </div>
    <br>
    <hr>
+   <div class="intro"><img class="me" src="./images/me.png">
+      I really wasn't sure what to come up with for this assignment, but as I was working on it I couldn't help but listen to the rumbling noises
+      coming from my stomach...and then I had the sparkle...PASTA! That led me to the idea for this simple webpage. 
+      <br>Being born in Italy, but having lived in the US for 13 years now, one thing that I was never able to get over was the misconceptions about
+      pretty much 98% of italian food being served coast to coast in this country.So I though I would populate this page with a few simple and quick
+      recipes of my favorite italian pasta dishes. What else can I say if not.... Buon Appetito Launchcoders of Miami!!!
+     
+   </div>
+
+   
+   
   
   <table>
    
     <tr>
-      <td><img src="./images/amatriciana.png"></td>
-      <td style="width:900px;"><h3 class="subtitle"> Bucatini all'Amatriciana </h3>
-      <p> Sugo or salsa all'amatriciana (Italian pronunciation: [ˈsuːɡo allamatriˈtʃaːna]) is a traditional Italian pasta sauce based on guanciale (cured pork cheek), pecorino cheese from Amatrice, tomato, and, in some variations, onion. Originating from the town of Amatrice (in the mountainous Province of Rieti of Lazio region), the Amatriciana is one of the best known pasta sauces in Roman and Italian cuisine. The Italian government has named it a traditional agro-alimentary product of Lazio.
+      <td id="amatriciana"><img src="./images/amatriciana.png"></td>
+      <td style="width:900px;">
+        <h3 class="subtitle"> Bucatini all'Amatriciana &#11088 &#11088 &#11088 &#11088 &#11088 
+          <span class="timer">&#9202 15 min</span>
+          <audio id="player" autoplay controls >
+          <source src="./sounds/Volare.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+          </audio>
+          
+        </h3>
+      <p> Sugo or salsa all'amatriciana is a traditional Italian pasta sauce based on guanciale (cured pork cheek), pecorino cheese from Amatrice, tomato, 
+        and, in some variations, onion. Originating from the town of Amatrice (in the mountainous Province of Rieti of Lazio region), the Amatriciana is 
+        one of the best known pasta sauces in Roman and Italian cuisine. The Italian government has named it a traditional agro-alimentary product of Lazio.
     </p></td>
     </tr>
     <tr>
       <td>
-        <ul> Ingredients
+        <ul> Ingredients 
           <li> Bucatini Pasta 8oz </li>
           <li> San Marzano Tomatoes 14oz</li>
           <li> Olive Oil 1 Tbsp</li>
-          <li> Pecorino Romano 1/2 cup (grated)</li>
+          <li> ½ Cup Pecorino Romano (grated)</li>
           <li> Yellow Onion 1 (diced)</li>
           <li> Guanciale 3.5oz (diced)</li>
-          <li> Red Pepper Flakes 1/2 tsp</li>
+          <li> ½ tspRed Pepper Flakes </li>
         </ul>
       </td>
         <td>
           <h4>Recipe</h4><br>
-   		  <ol> <li>Place a large pot of water to boil. Put in a small handful of large-grain salt.</li>
-          <li>Dice the guanciale into medium pieces, cubes of about 1/2 inch. Be wary of dicing the meat too small, if so it will be easier to overcook and you’re aiming for tender rather than crispy.</li>
-          <li>Sautee the guanciale and hot pepper in the olive oil in a pan over medium heat. As soon as the fat becomes translucent, remove the meat and set to drain on a paper towel.</li>
-          <li>Add onions to the rendered fat and sautee, stirring constantly, until translucent. Add the tomatoes and the guanciale. Simmer on low heat about 5-10 minutes.</li>
-          <li>When the water comes to a boil, add the pasta. Traditionally you use bucatini or spaghetti, though rigatoni is also an excellent partner for amatriciana. Cook the pasta 1 minute less than the package states. Drain the pasta and add it to the pan with the sauce. Toss with the sauce and add the pecorino romano, stirring constantly so that the melted cheese coats the pasta. Remove from heat and serve immediately with additional grated pecorino for sprinkling on top. </li>
+   		    <ol> 
+            <li class="rec">Place a large pot of water to boil. Put in a small handful of large-grain salt.</li>
+            <li class="rec"i>Dice the guanciale into medium pieces, cubes of about 1/2 inch. Be wary of dicing the meat too small, if so it will be easier to overcook and you are aiming for tender rather than crispy.</li>
+            <li class="rec">Sautee the guanciale and hot pepper in the olive oil in a pan over medium heat. As soon as the fat becomes translucent, remove the meat and set to drain on a paper towel.</li>
+            <li class="rec">Add onions to the rendered fat and sautee, stirring constantly, until translucent. Add the tomatoes and the guanciale. Simmer on low heat about 5-10 minutes.</li>
+            <li class="rec">When the water comes to a boil, add the pasta. Traditionally you use bucatini or spaghetti, though rigatoni is also an excellent partner for amatriciana. Cook the pasta 1 minute less than the package states. Drain the pasta and add it to the pan with the sauce. Toss with the sauce and add the pecorino romano, stirring constantly so that the melted cheese coats the pasta. Remove from heat and serve immediately with additional grated pecorino for sprinkling on top. </li>
           </ol>
       </td>
     </tr>
@@ -60,27 +82,35 @@
   <table>
    
     <tr>
-      <td><img src="./images/carbonara.png"></td>
-      <td style="width:900px;"><h3 class="subtitle"> Spaghetti alla Carbonara </h3>
-      <p> Dish History  Blah blah blah Blah blah blah Blah blah blah Blah blah blah
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah 
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah .</p></td>
+      <td id="carbonara"><img src="./images/carbonara.png"></td>
+      <td style="width:900px;"><h3 class="subtitle"> Spaghetti alla Carbonara &#11088 &#11088 &#11088 &#11088 &#11088 <span class="timer">&#9202 20 min</span></h3>
+      <p> Carbonara is an Italian pasta dish from Rome made with egg, hard cheese, guanciale (or pancetta), and pepper.
+        The recipe is not fixed by a specific type of hard cheese or pasta. The cheese is usually Pecorino Romano. Spaghetti is the usual pasta, however, 
+        fettuccine, rigatoni, linguine, or bucatini are also used. Either guanciale or pancetta can be used. Another common substitute outside Italy is lardons 
+        of smoked bacon. The dish was created in the middle of the 20th century.</p></td>
     </tr>
     <tr>
       <td>
         <ul> Ingredients
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
+          <li> 1 pound spaghetti pasta</li>
+          <li> 1 tablespoon salt </li>
+          <li> 1 pound thick cut bacon or pancetta, diced </li>
+          <li> 4 egg yolks </li>
+          <li> 2 whole eggs </li>
+          <li> 1&#189; cups grated pecorino romano cheese, divided </li>
+          <li>&#189; teaspoon freshly ground pepper </li>
+          <li> 2 tablespoons freshly chopped parsley, to garnish </li>
         </ul>
       </td>
         <td>
          <h4>Recipe</h4><br>
-   		  <p> Blah blah blah Blah blah blah Blah blah blah Blah blah blah
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah 
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah </p>
+   		   <ol> 
+            <li class="rec">Bring a large pot of water to a boil and season with salt. Cook pasta according to package directions. Reserve 1&#189; cups of the pasta water before draining.</li>
+            <li class="rec">In a large saucepan, cook bacon (or pancetta) over medium heat until crisp, about 7 to 10 minutes. Drain fat from bacon, reserving just 2 tablespoons of the grease.</li>
+            <li class="rec">In a mixing bowl, whisk together egg yolks, eggs, and 1 cup pecorino romano cheese.</li>
+            <li class="rec"i>Toss drained pasta with cooked bacon, and 2 tablespoons of bacon grease. Pour egg mixture in, along with reserved pasta water and toss together with pasta 2 minutes.</li>
+            <li class="rec">Serve hot topped with remaining cheese, freshly ground pepper, and parsley to garnish.</li>
+          </ol>
       </td>
     </tr>
   </table>
@@ -88,27 +118,30 @@
   <table>
    
     <tr>
-      <td><img src="./images/genovese.png"></td>
-      <td style="width:900px;"><h3 class="subtitle"> Trofie alla Genovese </h3>
-      <p> Dish History  Blah blah blah Blah blah blah Blah blah blah Blah blah blah
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah 
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah .</p></td>
+      <td id="pesto-genovese"><img src="./images/genovese.png"></td>
+      <td style="width:900px;"><h3 class="subtitle"> Trofie alla Genovese &#11088 &#11088 &#11088 &#11088 &#11088 <span class="timer">&#9202 25 min</span></h3>
+      <p> Pesto is derived from the Italian verb pestare, to grind or crush. Created in the port city Genova, true pesto genovese is comprised of freshly-ground basil under the certification genovese DOP (Denominazione Origine Protetta, or protected designation of origin), Ligurian extra virgin olive oil, pine nuts, sea salt, and garlic. Many varieties also include Parmigiano Reggiano and Fiore Sardo (because you can never go wrong by adding cheese).
+          When preparing the perfect plate of pasta, our chefs at Eataly remind us that the pasta should &quot;marry&quot; the sauce. The shape, size, and texture of each type of pasta interact differently with various sauces. Pesto&#39;s match made in pasta heaven is trofie, a twisted, spiral-shaped pasta that is also native to Liguria. The ribbed spirals perfectly pick up pesto's fine consistency, resulting in perfect bite after perfect bite, each guaranteed to transport you to the Ligurian seaside.</p></td>
     </tr>
     <tr>
       <td>
         <ul> Ingredients
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
+          <li> 1 jar basil pesto</li>
+          <li> 1 lb package trofie </li>
+          <li> 6 small red potatoes, boiled and halved</li>
+          <li> 1 cup young green beans </li>
+          <li> Sea salt and EVOO, to taste</li>
         </ul>
       </td>
         <td>
           <h4>Recipe</h4><br>
-   		  <p> Blah blah blah Blah blah blah Blah blah blah Blah blah blah
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah 
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah </p>
+          <ol> 
+            <li class="rec">Bring a large pot of water to boil, then season it with salt until it is as salty as the sea. Set up a large bowl filled with ice water nearby. Drop the green beans into the boiling water until they turn bright green, about 1 to 2 minutes. Move them from the boiling water to the ice bath. Once cool, drain and dry the blanched green beans.</li>
+            <li class="rec">Place the pesto, boiled potatoes, and blanched beans in a 12- to 14-inch saute pan, and set aside.</li>
+            <li class="rec">Bring 6 quarts of water to a boil, and add two tablespoons of salt. Cook the pasta in the boiling water until it is al dente, then drain, reserving 1 cup of the pasta's cooking water.</li>
+            <li class="rec">Add the pasta to the pesto in the saute pan and place over medium heat. Toss to combine, and add a drizzle of extra virgin olive oil. If needed, add a small amount of the pasta cooking water to thin the pesto.</li>
+            <li class="rec">When the pasta is completely with the warmed pesto, place the dish into a warmed serving dish, and serve.</li>
+          </ol>
       </td>
     </tr>
   </table>
@@ -116,42 +149,44 @@
   <table>
    
     <tr>
-      <td><img src="./images/vongole.png"></td>
-      <td style="width:900px;"><h3 class="subtitle"> Linguine alle Vongole </h3>
-      <p> Dish History  Blah blah blah Blah blah blah Blah blah blah Blah blah blah
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah 
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah .</p></td>
+      <td id="vongole"><img src="./images/vongole.png"></td>
+      <td style="width:900px;"><h3 class="subtitle"> Linguine alle Vongole &#11088 &#11088 &#11088 &#11088 &#11088 <span class="timer">&#9202 20 min</span> </h3>
+      <p> Spaghetti alle vongole, Italian for spaghetti with clams, is a dish that is very popular throughout Italy, especially in Campania (where it is part of traditional Neapolitan cuisine).
+          In the Liguria region of Italy, east of Genoa, Spaghetti alle vongole (veraci) means spaghetti with tiny baby clams in the shell, no more than the size of a thumbnail, with a white wine/garlic sauce. Linguine also may be used for the pasta in preference to spaghetti. </p>
+      </td>
     </tr>
     <tr>
       <td>
         <ul> Ingredients
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
-          <li> Pasta </li>
+          <li> 2 large cloves garlic, finely chopped </li>
+          <li> 1 small dried red chile pepper, crushed, or a pinch of red pepper flakes</li>
+          <li> 1/3 cup olive oil </li>
+          <li> 3 lbs small hard shell clams </li>
+          <li> 1 cup clam juice </li>
+          <li> 1 cup dry white wine</li>
+          <li> 1 pound spaghetti or linguine</li>
+          <li> 1 cup fresh Italian parsley leaves, finely chopped</li>
         </ul>
       </td>
         <td>
           <h4>Recipe</h4><br>
-   		  <p> Blah blah blah Blah blah blah Blah blah blah Blah blah blah
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah 
-    Blah blah blah Blah blah blah Blah blah blah Blah blah blah Blah blah blah </p>
+   		  <ol> 
+          <li class="rec">In a large saucepan over medium heat, warm the garlic and chile pepper in the olive oil until the garlic is golden brown, about 1 minute. </li>
+          <li class="rec">Add the clams, clam juice and wine. Cover and simmer over medium heat, shaking the pan occasionally until all the clams open.  </li>
+          <li class="rec">While the clams are simmering, bring a large pot of salted water to a boil. Add the pasta and cook, stirring frequently, until al dente.  </li>
+          <li class="rec">Drain the pasta and transfer to a large bowl. Add the clam sauce and parsley and toss well. Serve immediately.</li>
+        </ol>
       </td>
     </tr>
   </table>
-   
-   
-   
-   
-   
 
-
-
-
-
-
-
+  <footer>
+      <div class="intro" style ="width: 1000px; display: inline-block; overflow:auto;"><img class="thumb-up" src="./images/thumb_up.png">
+        <p style="font-size: 60px"> Keep Calm and Mangia Spaghetti! </p>
+        
+       
+     </div>      
+  </footer>
 
 </body>
 
